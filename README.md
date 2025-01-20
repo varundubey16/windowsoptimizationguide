@@ -1,3 +1,6 @@
+NOTE:- REMOVED THE .VBS FILE BECASUE IT WAS CAUSING ISSUES ON WIN 11, WILL LOOK INTO IT AND GIVE AN UPDATE IN FUTURE
+
+
 # Windows Optimization Guide for Gaming and Performance
 
 ## 1. Basic Optimization Checklist
