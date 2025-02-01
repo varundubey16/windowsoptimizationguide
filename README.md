@@ -3,48 +3,48 @@ NOTE:- REMOVED THE .VBS FILE BECASUE IT WAS CAUSING ISSUES ON WIN 11, WILL LOOK 
 
 # Windows Optimization Guide for Gaming and Performance
 
-## 1. Basic Optimization Checklist
-- **Keep Windows Updated**: Check for Updates and use something like DriverBooster by Iobit or Device Manager manual right click drivers and update them.
-- **Driver Updates**: Intel Support Assistant or AMD for CPUS's & NVIDIA GeForce Experience for GPU to keep drivers updated. These are actually useful.
-- **Debloat Windows**: Run a Windows debloater to remove unnecessary bloatware. The best one is at - https://github.com/Sycnex/Windows10Debloater
-- **Antivirus**: Run a full antivirus scan to keep your system safe. like MRT, Defender or any 3rd part like Mcafee if u use.
+## 1. Basic Optim things
+- **Keep Windows Updated**: Must!, check for Updates and use something like DriverBooster by Iobit or Device Manager manual right click drivers and update them.
+- **Driver Updates**: Intel Support Assistant or AMD for CPUS's & NVIDIA GeForce Experience for GPU to keep drivers updated. These are useful, run atleast once a month, or switch automatically
+- **Debloat Windows**: Run a Windows debloater to remove unnecessary bloatware. The best one is at - https://github.com/Sycnex/Windows10Debloater, but it only works on win 7 and 10, *accordintoauthor
+- **Antivirus**: Not quick, FULL antivirus scan to get any thing out of system. like MRT, Defender or any 3rd part like Mcafee if u use.
 - **Troubleshoot**: Use built-in Windows troubleshooters for any ongoing issues.
 - **Memory and Disk Diagnostics**:
-  - Press `Windows + R`, type `mdsched` for memory diagnostics.
-  - Run `mrt` for malware removal.
+  - Press `Windows + R`, type `mdsched` and run, pc will restart and run checks
+  - Run `mrt` and run full once.
 
 ## 2. Privacy and Background Services
 - **Game Mode**: Turn on Game Mode for optimized gaming performance. It actually speeds up CPU significantly.
-- **Privacy Settings**: Turn off data sharing for diagnostics, inking & typing, and feedback inside settings.
+- **Privacy Settings**: Turn off all MS BS like data sharing for diagnostics, inking & typing, and feedback inside settings. Also turn off services like Sysmain, connected users telemetry and search.
 - **Permissions**: Disable location, camera, microphone, and notifications permissions unless needed in settings.
 - **Default Apps and Background Apps**:
-  - Set essential apps as defaults.
-  - Delete offline maps, disable not required startup apps, and turn off not necessary background apps.
+  - Set essential apps as defaults. Chrome or brave, plz not edge.
+  - Delete offline maps, disable not required startup apps, and turn off not your needs necessary background apps.
 - **Network Settings**: Disable unused network adapters (like Ethernet if on Wi-Fi) and configure IPv4 DNS to Google (8.8.8.8) or Cloudflare (1.1.1.1).
 
 ## 3. System Maintenance
 - **Temporary Files**:
   - Use `Windows + R` to delete temporary files:
-    - Type `temp`, `%temp%`, and `prefetch` to open directories and delete files.
-  - Run `WSReset.exe` to clear the Windows Store cache.
+    - Type `temp`, `%temp%`, and `prefetch` and inside these folders just ctrl a and ctrl del, all is trash.
+  - Run `WSReset.exe` to clear the Windows Store cache. If you use it.... -_-
 - **Optimize Disk**:
   - For HDDs, run Disk Defrag (DO NOT DEFRAG SSD! Only Optimize).
 - **Disk Cleanup**:
   - Use - Disk Cleanup on the C: drive; select check “Clean up system files.”
-- **Software Distribution**: Delete contents in `Windows/Software Distribution/Downloads` to clear old update files. They are upto 6GB sometimes.
+- **Software Distribution**: Delete all in `Windows/Software Distribution/Downloads` to clear old update files. They are upto 6GB sometimes. In my case once was around 7.1
 
 ## 4. Performance Enhancements
 - **Power Plan**: Create New Power Plan - High Performance or Ultimate Performance (if available).
 - **Advanced System Settings**:
   - Go to "This PC" > Properties > Advanced System Settings > Performance Settings and set it to “Adjust for best performance.”
-  - Disable remote access and delete old restore points.
+  - Disable remote access and delete old restore points. Set new restore point give not more than 5%, and dont disbale remote if you use aws like ec2, rdp or vps services.
 - **Gaming Settings**:
   - Add games to the Windows Graphics Settings for dedicated GPU access.
 - **Desktop Customization**:
-  - Set a solid color background to reduce system load.
+  - Set a solid color background to reduce system load. Storm is best, good to eyes
 - **Startup Programs**:
   - Use Task Manager to disable unnecessary startup apps.
-  - Use `msconfig` to enable all processors on boot and hide non-Microsoft services.
+  - Use `msconfig` to enable all processors on boot and hide non-Microsoft services. And disbale all not looking ok ones
 
 ## 5. Services and Registry Tweaks
 - **Service Optimization**:
@@ -100,6 +100,6 @@ NOTE:- REMOVED THE .VBS FILE BECASUE IT WAS CAUSING ISSUES ON WIN 11, WILL LOOK 
 - **TimeResolution**:
   - Use TimeResolution to reduce system latency while gaming.
 - **Disable Unnecessary Services**:
-  - Disable services like compnay bloatware from services, example  - Dell SupportAssist, TechHub, DataCollector, DataVault if on a Dell system.
+  - Disable services like compnay bloatware from services, example  - Dell SupportAssist, TechHub, DataCollector, DataVault if on a Dell system. Company to compnay depends, like HP, lenovo etc
  
-  - THESE SETTINGS WILL GIVE DIFFERENT RESULTS ON DIFFERENT DEVICES. 
+  - THESE SETTINGS WILL GIVE DIFFERENT RESULTS ON DIFFERENT DEVICES. :)
